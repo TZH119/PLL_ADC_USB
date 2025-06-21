@@ -1,0 +1,61 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.685546",
+   "Default View_TopLeft":"-163,-63",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2440 -y 920 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2440 -y 940 -defaultsOSRD
+preplace port ps_emio -pg 1 -lvl 7 -x 2440 -y 900 -defaultsOSRD
+preplace port IT_RIG -pg 1 -lvl 7 -x 2440 -y 610 -defaultsOSRD
+preplace port port-id_adc_clk -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace portBus adc_data_in -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 2180 -y 950 -defaultsOSRD
+preplace inst data_trans_ctrl_0 -pg 1 -lvl 2 -x 600 -y 180 -defaultsOSRD
+preplace inst axi_protocol_convert_0 -pg 1 -lvl 5 -x 1790 -y 940 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -x 2180 -y 620 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1460 -y 910 -defaultsOSRD
+preplace inst axi_full_module_pope_0 -pg 1 -lvl 3 -x 1040 -y 180 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 1 -x 190 -y 200 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 5 -x 1790 -y 780 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 190 -y 360 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1460 -y 410 -defaultsOSRD
+preplace netloc data_trans_ctrl_0_user_rd_addr 1 2 1 860 280n
+preplace netloc data_trans_ctrl_0_user_rd_length 1 2 1 830 280n
+preplace netloc data_trans_ctrl_0_user_read_vld 1 2 1 N 260
+preplace netloc data_trans_ctrl_0_user_wr_addr 1 2 2 840 380 NJ
+preplace netloc data_trans_ctrl_0_user_wr_data 1 2 2 870 360 1260J
+preplace netloc data_trans_ctrl_0_user_wr_last 1 2 2 850 420 NJ
+preplace netloc data_trans_ctrl_0_user_wr_length 1 2 2 780 440 NJ
+preplace netloc data_trans_ctrl_0_user_write_vld 1 2 2 800 460 NJ
+preplace netloc axi_gpio_0_gpio_io_o 1 1 6 400 540 NJ 540 NJ 540 NJ 540 NJ 540 2410
+preplace netloc axi_full_module_pope_0_user_rd_last 1 1 3 420 400 NJ 400 1240
+preplace netloc axi_full_module_pope_0_user_rd_data 1 1 3 430 390 NJ 390 1230
+preplace netloc axi_gpio_1_gpio_io_o 1 1 5 410 410 NJ 410 1250J 280 NJ 280 1940
+preplace netloc Net2 1 0 7 20 120 360 370 810 370 1280 1100 1630 690 1950 1060 2410
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 20 550 NJ 550 NJ 550 NJ 550 1610J 530 NJ 530 2420
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 5 380 380 820 470 1230 640 1620 640 NJ
+preplace netloc adc_data_in_1 1 0 2 NJ 20 390
+preplace netloc Net 1 0 3 N 40 370 360 790
+preplace netloc axi_full_module_pope_0_m_axi 1 3 1 1270 140n
+preplace netloc axi_gpio_0_GPIO 1 6 1 NJ 610
+preplace netloc axi_protocol_convert_0_M_AXI 1 5 1 N 940
+preplace netloc processing_system7_0_DDR 1 6 1 NJ 920
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 940
+preplace netloc processing_system7_0_GPIO_0 1 6 1 NJ 900
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 4 1290 700 NJ 700 NJ 700 2410
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 2 1610 600 NJ
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 1 1610 910n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 4 1 1640 760n
+levelinfo -pg 1 0 190 600 1040 1460 1790 2180 2440
+pagesize -pg 1 -db -bbox -sgen -170 0 2560 1110
+"
+}
+{
+   "da_axi4_cnt":"9",
+   "da_board_cnt":"7",
+   "da_bram_cntlr_cnt":"10",
+   "da_clkrst_cnt":"21",
+   "da_ps7_cnt":"1"
+}
